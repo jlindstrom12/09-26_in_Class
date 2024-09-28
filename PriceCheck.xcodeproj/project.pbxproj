@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8394372CA5BBEB0093DF51 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8394362CA5BBE80093DF51 /* LocationView.swift */; };
+		2B8394392CA5BBF60093DF51 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8394382CA5BBF10093DF51 /* ScanView.swift */; };
 		E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */; };
 		E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE072531EA2500C17A92 /* ScanListView.swift */; };
 		E7D5EE0A2531EA2600C17A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE092531EA2600C17A92 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B8394362CA5BBE80093DF51 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		2B8394382CA5BBF10093DF51 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		E7D5EE022531EA2500C17A92 /* PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCheckApp.swift; sourceTree = "<group>"; };
 		E7D5EE072531EA2500C17A92 /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		E7D5EE222531FE3000C17A92 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2B8394382CA5BBF10093DF51 /* ScanView.swift */,
+				2B8394362CA5BBE80093DF51 /* LocationView.swift */,
 				E7D5EE072531EA2500C17A92 /* ScanListView.swift */,
 			);
 			path = Views;
@@ -175,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8394392CA5BBF60093DF51 /* ScanView.swift in Sources */,
 				E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */,
+				2B8394372CA5BBEB0093DF51 /* LocationView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
